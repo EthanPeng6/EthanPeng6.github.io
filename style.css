@@ -1,0 +1,16 @@
+body {
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+}
+p {
+    font-size: 20px;
+    color:blue;
+    font-weight:900;
+}
+header {
+    text-align:center
+}
+a {
+    text-decoration:none
+}
