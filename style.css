@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body {
     font-size: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -9,9 +10,82 @@ p {
     font-weight:900;
 }
 header {
-    text-align:center
+    text-align:center;
+    color:white;
+    font-size:25px;
 }
 a {
     color:white;
-    text-decoration:none
+    text-decoration:none;
+    font-size:30px;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    border-style:solid;
+    border-width: 1px;
+    border-color:white;
+    padding-left:20vw;
+    padding-right:20vw;
+}
+.title {
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+    
+}
+a:hover {
+text-decoration: underline;
+}
+nav {
+    margin-top: 10px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+section {
+    color:white;
+    font-weight:50;
+    font-size:20px;
+    text-align:left;
+    border-bottom:solid;
+    padding-bottom:25px;
+    border-width:1px;
+}
+footer{
+    color:white;
+    font-size:10px;
+    text-align:center;
+    margin-top:150vh;
+}
+h2{
+text-align:left;
+font-size:18x;
+color:white
+}
+p{
+    font-size:18px;
+}
+.poem{
+    margin-bottom:0px;
+    margin-top:0px;
+    font-weight:100;
+}
+.half{
+    display:flex;
+
+}
+.half div{
+    width:48vw;
+}
+.border{
+    border-top:solid;
+    border-bottom:solid;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.background{
+    background-image:url('beach.jpg');
+    background-position:top;
+    background-repeat:no-repeat
+    
+
 }
